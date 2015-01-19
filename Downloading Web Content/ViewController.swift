@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let url = NSURL(string: "http://www.shermanmeng.com")
+        let url = NSURL(string: "http://www.stackoverflow.com")
         
         let task = NSURLSession.sharedSession().dataTaskWithURL(url!) {
             (data, response, error) in
